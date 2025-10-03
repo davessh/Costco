@@ -17,7 +17,7 @@ public class Cola<T> {
             cola[fin] = dato;
             fin++;
             if (fin == 1) {
-                inicio = 1; // sigue tu pseudocódigo
+                inicio = 1;
             }
         } else {
             System.out.println("Desbordamiento: la cola está llena");
